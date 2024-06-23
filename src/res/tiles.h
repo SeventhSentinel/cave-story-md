@@ -31,6 +31,7 @@ extern const uint16_t UFTC_Face25[];
 extern const uint16_t UFTC_Face26[];
 extern const uint16_t UFTC_Face28[];
 extern const uint16_t UFTC_Face29[];
+extern const uint16_t UFTC_Face30[];
 
 extern const uint16_t UFTC_bkBlue[];
 extern const uint16_t UFTC_bkEggs[];

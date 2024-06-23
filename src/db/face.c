@@ -36,4 +36,5 @@ const face_info_def face_info[FACE_COUNT] = {
 	{ UFTC_Face01, PAL3 },
 	{ UFTC_Face28, PAL3 },
 	{ UFTC_Face29, PAL0 },
+	{ UFTC_Face30, PAL0 },
 };

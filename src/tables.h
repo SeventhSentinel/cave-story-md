@@ -68,7 +68,7 @@ typedef struct {
 extern const sfx_info_def sfx_info[];
 
 // Information about each character face image
-#define FACE_COUNT 30
+#define FACE_COUNT 31
 typedef struct {
 	const uint16_t *tiles; // Graphical tile data
 	// Like backgrounds, faces share palettes. This is which of the 4 currently loaded to use

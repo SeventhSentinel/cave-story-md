@@ -21,7 +21,9 @@
 <KEY<FLJ1640:0201<FL+1640<SOU0022<CNP0200:0021:0000
 <MSGOpened the chest.<NOD<GIT0002<AM+0002:0000<CLR
 <CMU0010Got the =Polar Star=!<WAI0160<NOD<GIT0000<CLO<RMU
-<MSG
+<MSG<CLR<FAC0030What a relief. Not having a
+blaster was making me
+anxious.<NOD<CLR<FAC0000
 From somewhere, a transmission...<FAO0004<NOD<TRA0018:0501:0002:0000
 
 #0201
@@ -31,7 +33,8 @@ From somewhere, a transmission...<FAO0004<NOD<TRA0018:0501:0002:0000
 
 
 #0300
-<KEY<MSG*snore*<NOD<END
+<KEY<MSG*snore*<NOD<CLR<FAC0030Hey, gramps. Up and at 'em.
+What is this place? Hello?<NOD<CLR<FAC0000*snore*<NOD<CLR<FAC0030Heavy sleeper, huh...<NOD<END
 
 #0301
 <FLJ1644:0303

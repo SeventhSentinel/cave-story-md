@@ -140,7 +140,9 @@ I've found a shelter, but there's
 nothing here.<NOD
 If you can hear me,
 please answer!<NOD<CLR...Please?<NOD
-<FAO0004<SK+0005<TRA0013:0091:0010:0008
+<FMU<FAO0004<CLR...<NOD<CLRWhere the shell am I...?<NOD
+More importantly, where's my
+blaster?<NOD<SK+0005<TRA0013:0091:0010:0008
 
 
 #0501

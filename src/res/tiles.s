@@ -32,6 +32,7 @@ BIN UFTC_Face26,	"res/tiles_c/face26.uftc"
 /*27*/
 BIN UFTC_Face28,	"res/tiles_c/face28.uftc"
 BIN UFTC_Face29,	"res/tiles_c/face29.uftc"
+BIN UFTC_Face30,	"res/tiles_c/face30.uftc"
 
 /* Backgrounds */
 BIN UFTC_bkBlue,		"res/tiles_c/bkMimi.uftc"
