@@ -123,4 +123,7 @@ const sfx_info_def sfx_info[SOUND_COUNT] = {
     { SFX_73, SFX_73_end },
     { SFX_74, SFX_74_end },
     { SFX_75, SFX_75_end }, // 0x75 (117)
+    { SFX_76, SFX_76_end }, // "Uh-uh"
+    { SFX_77, SFX_77_end }, // "What the?"
+    { SFX_78, SFX_78_end }, // "Whoa!"
 };

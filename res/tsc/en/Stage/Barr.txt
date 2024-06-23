@@ -20,11 +20,11 @@
 <KEY<SOU0011<ANP0100:0000:0002
 <FAO0004<TRA0011:0094:0042:0052
 #0101
-<PRI<MSGIt won't open!<NOD<END
+<PRI<MSG<SOU0118This door appears to be stuck...<NOD<END
 #0102
 <KEY<FAO0004<TRA0011:0094:0042:0052
 #0103
-<PRI<MSGYou can't run!<NOD<END
+<PRI<MSG<SOU0118<FAC0030(I can't just bail!)<NOD<END
 
 #0150
 #0151
@@ -43,7 +43,8 @@
 <PRI<MSG<FAC0005Just you wait!<NOD<FAC0000<KEY<CLO
 <WAI0100<CMU0015
 <MSG
-Fought off Balrog!<WAI0140<NOD
+Fought off Balrog!<WAI0140<NOD<CLR<FAC0030What the shell is going on
+here...?<NOD
 <SOU0045<CNP0150:0001:0000<WAI0004
 <SOU0045<CNP0151:0001:0000<WAI0004
 <SOU0045<CNP0152:0001:0000<WAI0004
@@ -54,8 +55,11 @@ Fought off Balrog!<WAI0140<NOD
 #0500
 
 #1000
-<KEY<FL+0360<FL+0361<FL+0440<FL-0326<MSGEeeeeek!<NOD<CLRSave me, save me!!<NOD<CLR.....<NODHuh?<NOD<MYB0002<WAI0030<MYD0002<CNP1000:0060:0004<CLR<FAC0006You're...you're not
-with the Doctor?<NOD<CLROh! I'm sorry.<NOD
+<KEY<FL+0360<FL+0361<FL+0440<FL-0326<MSGEeeeeek!<NOD<CLRSave me, save me!!<NOD<CLR<FAC0030Chill out, kiddo! It's just
+a warning shot. I don't wanna
+hurt you.<NOD<CLR<FAC0000.....<NODHuh?<NOD<MYB0002<WAI0030<MYD0002<CNP1000:0060:0004<CLR<FAC0006You're...you're not
+with the Doctor?<NOD<CLR<FAC0030Doctor? What do I look like,
+a nurse?<NOD<CLR<FAC0006Oh! I'm sorry.<NOD
 You had me worried.
 The Doctor's such a
 mean guy.<NOD
@@ -63,9 +67,11 @@ Popping up in our village
 and taking us away,<NOD
 sometimes even killing
 us...<NOD<CLRLike my brother.
-He killed my brother.<NOD<CLROh!<NOD
+He killed my brother.<NOD<CLR<FAC0030My condolences. (Sounds like
+the last guy you'd want to
+have a check-up with...)<NOD<CLR<FAC0006Oh!<NOD
 That pendant!<GIT1004<NOD<CLRYou found it for me?<NOD
-Sue gave that to me!<NOD<CLR.....<NOD<CLRWell... I shouldn't have
+Sue gave that to me!<NOD<CLR<FAC0030Oh, this is yours?<NOD<CLR<FAC0006Well... I shouldn't have
 it anymore.<NOD
 <GIT0000King gets his ears all
 in a tangle when he sees
@@ -73,9 +79,9 @@ Sue and I getting along...<NOD
 You can have it.<NOD<CLO
 <FAC0000<CMU0000
 <QUA0030<SOU0026
-<ANP1000:0008:0000
+<ANP1000:0008:0000<WAI0010<CLR<FAC0030<SOU0119What the--?<NOD<CLR
 <ANP0100:0001:0000
-<WAI0010
+<FAC0000
 <MYD0000
 <CNP1000:0060:0000
 <WAI0100
@@ -97,7 +103,7 @@ You can have it.<NOD<CLO
 
 <MSGHuzzah!<WAI0050<CNP0400:0012:0002<ANP0400:0030:0002<CLR<KEY<CMU0011<FAC0014There you are!<NOD<CLR<FAC0005You can't hide, no no!<NOD
 I've got the nose of a
-bloodhound!<NOD<FAC0000<CLRIndeed you do.<NOD
+bloodhound!<NOD<CLR<FAC0030(What nose...?)<NOD<CLR<FAC0000<CLRIndeed you do.<NOD
 <CNP0500:0067:0002<WAI0100<ANP0500:0013:0002<WAI0050<ANP1000:0008:0000<MSG<FAC0015The nose, and I dare
 say the brain as well.<NOD<CLR<FAC0005Misery!<NOD<CLRI found her first!<NOD<CLR<FAC0008You--you guys're with
 the Doctor, aren't you!<NOD<CLR<FAC0015.....<NOD<CLR<FAC0016So you're Sue, eh?
@@ -106,7 +112,7 @@ for you.<NOD
 Come along, now.<NOD<CLR<FAC0006Uh...what?<NOD<CLR
 I'm not Sue.<NOD<FAC0000<CLO
 <ANP0500:0015:0002<WAI0110
-<PRI<MSG<FAC0008Eyaah!<NOD<FAC0015<CLRBalrog.<NOD
+<PRI<MSG<FAC0008Eyaah!<NOD<CLR<FAC0030Hey, you can't just--<NOD<CLR<FAC0015<CLRBalrog.<NOD
 I leave the rest to you.<NOD<CLO
 <ANP0500:0020:0002<FAC0000<CLO
 <KEY<WAI0050<MSG<FAC0008No, wait, you've got the
@@ -117,11 +123,14 @@ I always have to clean up!<NOD
 And here I found her
 FIRST!<NOD<CLR.....<NOD<CLRSo what's your deal?<NOD
 You gonna fight me with
-that thing?<YNJ1001<ANP0400:0030:0002<CLR
+that thing?<YNJ1001<ANP0400:0030:0002<CLR<FAC0030Bring it on, you
+oversized toaster!<NOD<CLR
 <FAC0014I knew it!<NOD<CLO
 <FL+0361<CMU0004<CNP0400:0068:0002<BSL0400<END
 
 #1001
-<KEY<FL-0362<FL-0361<CMU0008<MSG<FAC0005Huh.<NOD
+<KEY<FL-0362<FL-0361<CMU0008<MSG<FAC0030There's no time.<NOD
+I gotta tell
+the others about this.<NOD<CLR<FAC0005Huh.<NOD
 All right, see ya then.<NOD<CLO<ANP0400:0010:0002<END
 

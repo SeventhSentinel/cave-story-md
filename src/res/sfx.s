@@ -98,3 +98,6 @@ PCM SFX_73  "res/sfx/73.pcm"
 PCM SFX_74  "res/sfx/74.pcm"
 PCM SFX_75  "res/sfx/75.pcm"
 /* 76 77 78 79 7A 7B 7C 7D 7E 7F */
+PCM SFX_76  "res/sfx/76_uh-uh.pcm"
+PCM SFX_77  "res/sfx/77_what-the.pcm"
+PCM SFX_78  "res/sfx/78_whoa.pcm"

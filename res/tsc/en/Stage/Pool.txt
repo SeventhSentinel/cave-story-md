@@ -30,7 +30,10 @@
 
 
 #0200
-<KEY<MSGSue?<NOD<CLRYeah, I know her.<NOD
+<KEY<MSG<FAC0030(Oh, it's another one of
+those fuzzballs.)<NODHey, you.
+What do you know about this
+"Sue" that guy mentioned?<NOD<CLR<FAC0000Sue?<NOD<CLRYeah, I know her.<NOD
 That's the cute girl who stays
 cooped up in Arthur's house
 all the time, right?<NOD
@@ -41,14 +44,17 @@ here in the reservoir.<NOD
 She doesn't seem to like us
 much...<NOD
 I don't know why, since she's
-a Mimiga just like us.<NOD<END
+a Mimiga just like us.<NOD<CLR<FAC0030Memaga?<NOD
+Mamega?<NOD
+Mumango?<NOD<CLR(...Never mind. I'll just
+stick with "fuzzball.")<NOD<END
 
 #0300
 <PRI
 <FL+0370<FL+0326<FL+0371<FL-0321<FL+0362
 
 <DNP0300
-<MSGSomething gleams in the dirt...<NOD<CLR<CMU0010<GIT1004<IT+0004
+<MSG<FAC0030(Ooh, shiny!)<NOD<CLR<FAC0000<CMU0010<GIT1004<IT+0004
 Got the =Silver Locket=.<WAI0160<NOD<CNP0402:0060:0000<CLO
 <RMU<END
 
@@ -57,7 +63,8 @@ Got the =Silver Locket=.<WAI0160<NOD<CNP0402:0060:0000<CLO
 <FLJ0370:0401<END
 #0401
 <KEY<MYD0002<DNP0400<MSG<FAC0006Ah!<NOD<CLO
-<ANP0402:0006:0002<WAI0078<DNP0402<FL+0371<END
+<ANP0402:0006:0002<WAI0078<DNP0402<FL+0371<WAI0050<MSG<FAC0030(Was it something I said?<NOD
+Heh. What a shy fuzzball.)<NOD<END
 #0402
 
 #0410

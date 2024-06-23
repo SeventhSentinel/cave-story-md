@@ -24,8 +24,9 @@
 
 #0100
 <PRI<FLJ0324:0102
-<ITJ0001:0101
-<MSGLocked.<NOD<END
+<ITJ0001:0101<SOU0118
+<MSGIt won't open without
+=Arthur's Key=.<NOD<END
 #0101
 <SOU0022<GIT1001<FL+0324<FL+0441
 <MSGUsed =Arthur's Key=.<NOD<GIT0000<CLO<EVE0102
@@ -38,16 +39,20 @@
 #0104
 <FLJ0327:0112
 <FLJ0360:0111
-<KEY<MSG<FAC0009I'm Jack,<NOD
-the number-two around here.<NOD<CLRThis door leads to the
+<KEY<MSG<FAC0030What are you, a bouncer? Let
+me in. I'm on the list.<NOD<CLR<FAC0009I'm Jack,<NOD
+the number-two around here.<NOD<CLR<FAC0030I'm Snap, the number-seven
+everywhere. Whatcha doin',
+Jack?<NOD<CLR<FAC0009This door leads to the
 Mimiga graveyard, where the
-hero Arthur lies.<NOD<CLROh, what am I doing,
-you ask?<NOD<CLRWell, mushrooms have
-been springing up in the
+hero Arthur lies.<NOD<CLRMushrooms have been
+springing up in the
 graveyard,<NOD
-so I'm guarding the door
-to make sure they don't
-get out.<NOD<END
+so I'm guarding the door to
+ensure they don't get out.<NOD<CLR<FAC0030What, are they gonna grow
+legs and attack me? Sure,
+Jack. Enjoy your guard duty.<NOD
+(Weirdo...)<NOD<END
 
 #0105
 <KEY<FLJ0360:0106<SOU0011<ANP0105:0000:0002<EVE0106
@@ -96,11 +101,16 @@ find your way out. This I believe.<NOD<END
 #0300
 #0301
 <KEY<FLJ0323:0305<FL+0320<FL+0323
-<MSG.....<NOD<CLO
+<MSG.....<NOD<CLR<FAC0030Hey, fuzzball, are you okay?<NOD<CLO
 <MYB0000<WAI0050<MYD0000<CNP0301:0061:0002<WAI0008<CNP0301:0061:0004
 <MSG<FAC0007What? You're not an enemy?<NOD
 I thought for sure it
-was them...<NOD<CLRI'm King.<NOD
+was them...<NOD<CLR<FAC0030Enemy? Depends. You been 
+dumping oil anywhere it
+shouldn't be?<NOD<CLR<FAC0007Huh? Dumping oil? What are
+you talking about?<NOD<CLR<FAC0030I'll take that as a no.<NOD
+In which case, hello, new
+friend! I'm Snap.<NOD<CLR<FAC0007I'm King.<NOD
 I'm the number-one in
 this village.<NOD
 Not that that means
@@ -108,7 +118,9 @@ a whole lot, with only
 six of us left.<NOD<CLRWell, seven counting Sue.<NOD<CLRShe's not one of us,
 though.<NOD
 She's just an outsider
-who showed up recently.<NOD<END
+who showed up recently.<NOD<CLR<FAC0030An outsider, huh? Guess now
+there's two of those,
+counting me...<NOD<END
 
 #0302
 <KEY<FL+0320<FL+0321<FON0302:0016<MNA<FAI0004<CMU0000<WAI0100
@@ -123,7 +135,7 @@ someone away again...<NOD
 If we don't turn Sue
 over, it might be you
 he takes instead.<NOD<CLR<FAC0006But... But...<NOD<CLR<FAC0007The key, Toroko!<NOD
-<FAC0000<CLO
+<FAC0000<CLO<SOU0120
 <MOV0013:0022
 <WAI0075<HMC<CNP0309:0150:0002<ANP0309:0010:0002<QUA0030
 <MSG?!<NOD<CLO
@@ -134,8 +146,8 @@ he takes instead.<NOD<CLR<FAC0006But... But...<NOD<CLR<FAC0007The key, Toroko!<N
 <ANP0300:0006:0002
 <WAI0080
 <DNP0300
-<CMU0009
-<FOM0016<SMC<DNP0309<END
+<FOM0016<SMC<DNP0309<MSG<FAC0030Ohh, my shell...sorry, did I
+interrupt something?<NOD<CLO<CMU0009<END
 
 
 #0305
@@ -145,7 +157,9 @@ you fell.<NOD<END
 #0306
 <KEY<MSG<FAC0007Grrrrr!<NOD<CLRToroko!<NOD
 You're not getting away
-that easily!<NOD<END
+that easily!<NOD<CLR<FAC0030Whoa there, big guy. You just
+take it easy, alright? I'll
+go get her.<NOD<END
 #0307
 #0308
 <KEY<MYD0002<FAI0002<CMU0000<WAI0020
@@ -156,19 +170,22 @@ that easily!<NOD<END
 
 
 #0311
-<KEY<MSG*chomp chomp*<NOD<CLR!<NOD<CLO
+<KEY<MSG*chomp chomp*<NOD<CLR<FAC0030Hey, buddy...<NOD<CLR<FAC0000!<NOD<CLO
 <MYB0000<ANP0311:0002:0004<WAI0030<MYD0000
 <FLJ0156:0313
 <FLJ0120:0312
 <FLJ0360:0314
-<MSGOh! You startled me...<NOD<CLRSue?<NOD
+<MSGOh! You startled me...<NOD<CLR<FAC0030My bad. Can you tell me
+anything about this "Sue"
+character?<NOD<FAC0000<CLRSue?<NOD
 Oh, right.<NOD<CLRThe girl in Arthur's house, right?<NOD
 She's living with Toroko.<NOD<CLRSweet girl, that.<NOD
 Says she's searching for a
 "Sky Dragon"...<NOD
 Dragons that soar the skies...
 Do those kinda things really
-exist?<NOD<ANP0311:0000:0002<END
+exist?<NOD<CLR<FAC0030I've seen a shark walk on dry
+land. Anything's possible.<NOD<ANP0311:0000:0002<END
 #0312
 <MSGOh, you again.<NOD<CLRSue was brought up top.<NOD
 They say it's her fault Toroko
@@ -178,10 +195,12 @@ got captured.<NOD<ANP0311:0000:0002<END
 Arthur's house...<NOD<CLRAre they having a party or
 something?<NOD<ANP0311:0000:0002<END
 #0314
-<KEY<MSGWhat?<NOD
-Toroko's been kidnapped?<NOD<CLRWell, that's no good.<NOD
+<KEY<MSGWhat?<NOD<CLR<FAC0030Some weird floating lady took
+that little girl away in a
+bubble.<NOD<FAC0000<CLRToroko's been kidnapped?<NOD<CLRWell, that's no good.<NOD
 Now the only girl left in the
-village is Sue...<NOD<ANP0311:0000:0002<END
+village is Sue...<NOD<ANP0311:0000:0002<CLR<FAC0030(Interesting priorities this
+fella's got...)<NOD<END
 
 #0400
 <KEY<FL-0155<FON0400:0016<FAI0004<MNA<CMU0000<WAI0100<ANP0600:0011:0002

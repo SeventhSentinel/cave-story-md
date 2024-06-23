@@ -31,19 +31,23 @@
 <PRI<LI+1000<SOU0020<AE+<MSGEnergy replenished.<NOD<END
 
 #0200
-<KEY<MSGThis is our farm.
+<KEY<MSG<FAC0030What is this place?<NOD<FAC0000<CLRThis is our farm.
 We raise flowers here.<NOD
 My job is to watch over the farm.<NOD<CLRWe Mimigas depend on these flowers
 for sustenance.<NOD<CLRRed flowers, though, are bad news.<NOD<CLRIf you eat a red flower,
 they say your blood starts to
 boil, and soon you fall over dead!<NOD<CLRGood thing we don't have any
-of those growing here.<NOD<END
+of those growing here.<NOD<CLR<FAC0030No, I meant, like, what are
+all these caves and--oh,
+forget it.<NOD<END
 
 
 #0220
-<KEY<FLJ1020:0221<MSGA sprinkler.<NOD<END
+<KEY<FLJ1020:0221<MSG<FAC0030(Never seen a sprinkler like
+that before.)<NOD<END
 #0221
-<KEY<MSGIt's fixed firmly to the ground!<NOD<END
+<KEY<MSG<FAC0030Hrrrngh...! (Nope, that
+thing's not goin' anywhere.)<NOD<END
 
 #0300
 <PRI
@@ -56,5 +60,7 @@ Got the =Beast Fang=.<WAI0160<NOD<CLO
 #0400
 <PRI<SOU0022<DNP0400<CMU0016
 <MSG<GIT1006Got a =Life Capsule=!<WAI0160<NOD<RMU<ML+0003
-Max health increased by 3!<NOD<END
+Max health increased by 3!<NOD<CLR<FAC0030(It's waterlogged, but it's
+making my muscles ripple,
+so I can't complain.)<NOD<END
 

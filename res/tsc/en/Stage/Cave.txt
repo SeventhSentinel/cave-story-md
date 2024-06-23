@@ -42,6 +42,6 @@
 <END
 
 #0400
-<MSG<FAC0030What the heck is this thing?<NOD<CLR<FAC0000<PRI<SOU0022<DNP0400<CMU0016<GIT1006Got a =Life Capsule=!<WAI0160<NOD<RMU<ML+0003
+<MSG<PRI<FAC0030What the heck is this thing?<NOD<CLR<FAC0000<SOU0022<DNP0400<CMU0016<GIT1006Got a =Life Capsule=!<WAI0160<NOD<RMU<ML+0003
 Max health increased by 3!<NOD<CLR<FAC0030Huh. I feel...stronger.<NOD<END
 
