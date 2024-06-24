@@ -38,7 +38,7 @@ void intro_main() {
 	// Create "Studio Pixel Presents" text
 	//vdp_puts(VDP_PLANE_A, "Studio Pixel Presents", 10, 8);
     vdp_puts(VDP_PLANE_A, "Based on the Work of", 10, 6);
-    vdp_puts(VDP_PLANE_A, "    Studio Pixel    ", 10, 8);
+    vdp_puts(VDP_PLANE_A, "Studio Pixel", 14, 8);
 	
 	uint16_t timer = 0;
     joystate_old = ~0;

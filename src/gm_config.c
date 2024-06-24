@@ -88,7 +88,7 @@ const MenuItem menu[NUM_PAGES + 1][MAX_OPTIONS] = {
 		{ 25, /*20, BKI+40, */MI_ACTION, "Reset to Default", (uint8_t*)0 },
 	},{ // Save data
 		{ 4,  /*17, AKI,    */MI_ACTION, "Erase Counter", (uint8_t*)3 },
-		{ 6,  /*18, AKI+60, */MI_ACTION, "Erase All Save Data (!)", (uint8_t*)4 },
+		{ 6,  /*18, AKI+60, */MI_ACTION, "Erase All Saved Data (!)", (uint8_t*)4 },
 	},
 };
 
@@ -197,22 +197,21 @@ uint8_t set_page(uint8_t page) {
 			//if(cfg_language == LANG_JA) {
 			//	DrawJStr(8, 1, WKI, 21);
 			//} else {
-				vdp_puts(VDP_PLANE_A, "(1) Controller Config", 8, 1);
-
+				vdp_puts(VDP_PLANE_A, "< Prev    - Controls -    Next >", 4, 1);
 			//}
 			break;
 		case PAGE_GAMEPLAY:
 			//if(cfg_language == LANG_JA) {
 			//	DrawJStr(8, 1, WKI, 23);
 			//} else {
-				vdp_puts(VDP_PLANE_A, "(2) Gameplay Config", 8, 1);
+				vdp_puts(VDP_PLANE_A, "< Prev    - Gameplay -    Next >", 4, 1);
 			//}
 			break;
 		case PAGE_SAVEDATA:
 			//if(cfg_language == LANG_JA) {
 			//	DrawJStr(8, 1, WKI, 24);
 			//} else {
-				vdp_puts(VDP_PLANE_A, "(3) Save Data", 8, 1);
+				vdp_puts(VDP_PLANE_A, "< Prev   - Saved Data -   Next >", 4, 1);
 			//}
 			break;
 	}
@@ -237,7 +236,7 @@ void press_menuitem(const MenuItem *item, uint8_t page, Sprite *sprCursor) {
 		case MI_INPUT: {
 			sound_play(SND_MENU_SELECT, 5);
 			uint8_t released = FALSE;
-			vdp_puts(VDP_PLANE_A, "Press..", 30, item->y);
+			vdp_puts(VDP_PLANE_A, "Press!", 30, item->y);
 			while(TRUE) {
 				if(!(joystate & btn[cfg_btn_jump])) released = TRUE;
 				if(joy_pressed(JOY_ANYBTN)) {

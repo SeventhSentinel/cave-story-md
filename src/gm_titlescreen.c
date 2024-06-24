@@ -48,6 +48,7 @@ extern const char Homepage[];
 void print_version(void) {
     vdp_nputs(VDP_PLANE_A, Version,  5, 23, VER_LEN);
 	vdp_nputs(VDP_PLANE_A, Date + 9, 28, 23, DATE_LEN);
+	vdp_puts(VDP_PLANE_A, "THIS GAME SHOULD NOT BE SOLD", 6, 24);
 	vdp_nputs(VDP_PLANE_A, Homepage + 8, 5, 25, PAGE_LEN);
 }
 
