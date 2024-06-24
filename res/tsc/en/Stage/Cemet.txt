@@ -32,10 +32,11 @@ of course?<NOD<END
 
 #0300
 <CNP0300:0000:0000
-<PRI<MSGArthur's grave.<NOD
-There's writing on the
-tombstone:<NOD<CLR<MSG<TURHere sleeps the noble Arthur,
-true hero to the Mimigas.<NOD<FLJ0390:0000<CLR<MSG<FL+0390
-<CMU0010<GIT1001<IT+0001Found =Arthur's Key=!<WAI0160<NOD<CLO
+<PRI<MSG<FAC0030("Here sleeps the noble
+Arthur, true hero to the
+Mimigas.")<NOD<CLR(Oh, what's this?)<NOD<FAC0000<FLJ0390:0000<CLR<MSG<FL+0390
+<CMU0010<GIT1001<IT+0001Found =Arthur's Key=!<WAI0160<NOD<CLR<FAC0030(True hero, huh...
+Wonder what it would have
+been like to meet him.)<NOD<CLO
 <RMU<END
 

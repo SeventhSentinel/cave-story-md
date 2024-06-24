@@ -66,8 +66,8 @@ mean guy.<NOD
 Popping up in our village
 and taking us away,<NOD
 sometimes even killing
-us...<NOD<CLRLike my brother.
-He killed my brother.<NOD<CLR<FAC0030My condolences. (Sounds like
+us...<NOD<CLRLike my brother. He killed
+my brother, Arthur.<NOD<CLR<FAC0030My condolences. (Sounds like
 the last guy you'd want to
 have a check-up with...)<NOD<CLR<FAC0006Oh!<NOD
 That pendant!<GIT1004<NOD<CLRYou found it for me?<NOD
@@ -79,12 +79,13 @@ Sue and I getting along...<NOD
 You can have it.<NOD<CLO
 <FAC0000<CMU0000
 <QUA0030<SOU0026
-<ANP1000:0008:0000<WAI0010<CLR<FAC0030<SOU0119What the--?<NOD<CLR
+<ANP1000:0008:0000<WAI0010<CLR<FAC0030<SOU0119What the--?<WAI0050
 <ANP0100:0001:0000
 <FAC0000
 <MYD0000
 <CNP1000:0060:0000
-<WAI0100
+<WAI0050<CLR
+<FAC0000
 <QUA0030<SOU0026
 <ANP1000:0008:0000
 <ANP0100:0001:0000
@@ -129,7 +130,7 @@ oversized toaster!<NOD<CLR
 <FL+0361<CMU0004<CNP0400:0068:0002<BSL0400<END
 
 #1001
-<KEY<FL-0362<FL-0361<CMU0008<MSG<FAC0030There's no time.<NOD
+<KEY<FL-0362<FL-0361<CMU0008<MSG<FAC0030Outta my way.<NOD
 I gotta tell
 the others about this.<NOD<CLR<FAC0005Huh.<NOD
 All right, see ya then.<NOD<CLO<ANP0400:0010:0002<END

@@ -29,8 +29,9 @@
 
 #0200
 <FLJ0327:0201
-<KEY<MSG<FAC0007The key to Arthur's
-house...<NOD
+<KEY<MSG<FAC0030That strange lady took the
+girl! What do we do now?<NOD<CLR<FAC0007We need a key to get
+into Arthur's house.<NOD
 I thought there was at
 least one other one made.<NOD
 Blast you, Toroko,
@@ -47,7 +48,9 @@ But he was killed by
 one of the Doctor's
 goons.<NOD
 And now, I...I couldn't
-protect her...<NOD<END
+protect her...<NOD<CLR<FAC0030(It's more my fault than
+yours, big guy. I didn't act
+quick enough...)<NOD<END
 
 #0210
 <KEY<MSG<FAC0009There are two keys to
@@ -57,7 +60,8 @@ The other is hidden in
 the Mimiga graveyard.<NOD<END
 
 #0220
-<KEY<MSG<FAC0009Toroko's brother Arthur
+<KEY<MSG<FAC0030So, who was that Arthur guy,
+exactly?<NOD<CLR<FAC0009Toroko's brother Arthur
 fought against a horrific
 red monster...<NOD<CLRThe terrible demon of this
 island that feasts on
@@ -73,20 +77,22 @@ shielding our village
 from harm...<NOD<CLRI'll never forget it,
 as long as I live.<NOD<CLRHe may have finally been
 killed by the Doctor,
-but he was a true hero.<NOD<END
+but he was a true hero.<NOD<CLR<FAC0030A hero...<NOD
+I'll try to live up to his
+legacy.<NOD<END
 
 
 
 #0300
 <ITJ0008:0301
-<KEY<MSG*Crackle* *Snap!*<NOD<FLJ0442:0000<CLRYou see something lying
-beyond the flames.<NOD<END
+<KEY<MSG*Crackle* *Snap!*<NOD<FLJ0442:0000<CLR<FAC0030(There's something shiny
+behind that fire.)<NOD<END
 #0301
-<KEY<GIT1008<MSGDo you want to use the
-=Jellyfish Juice=?<YNJ0000<CLO<GIT0000
+<KEY<GIT1008<MSG<FAC0030(Should I use the
+=Jellyfish Juice=?)<YNJ0000<CLO<GIT0000
 <IT-0008<ANP0300:0010:0000<WAI0030<FLJ0442:0302<FL+0442
-<MSGYou find something in the
-ashes...<NOD<CLR<GIT0007<AM+0007:0100
+<MSG(Let's see what this thing
+is...)<NOD<CLR<GIT0007<AM+0007:0100
 <CMU0010Got the =Bubbler=!<WAI0160<NOD<CLO<RMU<DNP0300<END
 #0302
 <KEY<DNP0300<END

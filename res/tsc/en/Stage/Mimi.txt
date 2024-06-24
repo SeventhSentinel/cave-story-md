@@ -91,12 +91,13 @@ right away!<NOD<CLO
 
 #0200
 <PRI<FLJ0322:0201<FL+0322<SOU0022<CNP0200:0021:0000
-<MSGOpened the chest.<NOD<GIT1002<IT+0002<EQ+0002<CLR
+<MSG<FAC0030(Don't mind if I do...)<NOD<GIT1002<IT+0002<EQ+0002<CLR<FAC0000
 <CMU0010Got the =Map System=!<WAI0160<NOD<RMU<EVE0201
 #0201
-<PRI<MSGSomething's written here...<NOD<CLR<TURSo long as you retain your spirit
-of exploration, surely you shall
-find your way out. This I believe.<NOD<END
+<PRI<MSG<FAC0030(Oh, there's a note.)<NOD<CLR...<NOD<CLR(Some garbage about "the
+spirit of exploration."<NODHow
+about some instructions on
+how to use this thing?)<NOD<END
 
 #0300
 #0301
