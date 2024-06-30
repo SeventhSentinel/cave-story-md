@@ -174,9 +174,11 @@ really old.<WAI9999<END
 #6005
 <MSG<TURReminds me of a certain shark.<WAI9999<END
 #6006
-<MSG<TURA life capsule.<WAI9999<END
+<MSG<TURThe dark life capsule of torment
+eludes my grasp.<WAI9999<END
 #6007
-<MSG<TURI found this in Egg No. 06.<WAI9999<END
+<MSG<TURWhat the heck was this doing
+in that big egg?<WAI9999<END
 #6008
 <MSG<TURPuts out fires. Smells good. I
 almost want to drink it.<WAI9999<END
@@ -206,8 +208,8 @@ with this!<WAI9999<END
 one time. Should I drink it?<YNJ0000<LI+1000<SOU0020<IT-0015<MSG
 Life restored.<FRE<WAI9999<END
 #6016
-<MSG<TURApparently this cures
-anything and everything...<WAI9999<END
+<MSG<TURMust be some sort of special pill
+for robots.<WAI9999<END
 #6017
 <MSG<TURIt says "Labyrinth Clinic".<WAI9999<END
 #6018
@@ -304,8 +306,7 @@ these around.<WAI9999<END
 <MSG<TURHas some sort of cool alien engraved
 on it. Dunno what it's for.<WAI9999<END
 #6037
-<MSG<TURRed lipstick.
-It has no use.<WAI9999<END
+<MSG<TURI don't remember picking this up.<WAI9999<END
 #6038
 <KEY<MSGA little trinket I got from
 Chaba in the labyrinth.

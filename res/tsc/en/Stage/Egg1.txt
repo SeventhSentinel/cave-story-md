@@ -14,10 +14,12 @@
 <PRI<FAO0004<TRA0002:0094:0259:0011
 
 #0200
-<KEY<FLJ0470:0202<ITJ0007:0201<TUR<MSGID Card necessary to lower shield.<NOD<END
+<KEY<FLJ0470:0202<ITJ0007:0201<TUR<MSGIt won't work without the =ID Card=.<NOD<END
 #0201
 <KEY<FL+0470<MSG<GIT1007Inserted the =ID Card=.<NOD<GIT0000<CLR
-<SOU0043Shield lowered.<NOD<END
+<SOU0043Shield lowered.<NOD<CLR<FAC0030...<NOD<CLR(I don't even want to know
+why a working computer is
+in here.)<NOD<END
 #0202
-<KEY<MSG<TURShield is lowered.<NOD<END
+<KEY<MSG<FAC0030("Shield is lowered.")<NOD<END
 

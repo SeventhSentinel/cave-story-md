@@ -19,12 +19,13 @@
 
 #0200
 <KEY<FLJ1290:0201<FL+1290<MSGOho.<NOD<CLRA soldier from the surface?
-Didn't expect to see you
-here...<NOD
-Where are the others?<NOD<CLR.....<NOD<CLRWhat's that?
-Your memory's gone?<NOD
-Heh-heh-heh...<NOD<END
+You look a little different from
+the others...<NOD<CLR<FAC0030Soldier? No, I just work at
+the root beer factory.<NOD<CLR<FAC0000What's root beer?<NOD<CLR<FAC0030<SOU0119What do you mean, 
+what's--? Oh, boy. We are
+so not in Kansas anymore.<NOD<END
 #0201
-<KEY<MSGWell, till your juice runs
-out, have fun wandering.<NOD<END
+<KEY<MSGNo, seriously, what's root beer?<NOD<CLR<FAC0030It's this delicious soda
+pop with flavoring derived
+from sassafras.<NOD<CLR<FAC0000What's sassafras?<NOD<CLR<FAC0030Never mind.<NOD<END
 

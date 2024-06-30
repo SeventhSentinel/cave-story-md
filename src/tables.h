@@ -60,7 +60,7 @@ typedef struct {
 extern const bgm_info_def bgm_info[];
 
 // Information about each sound effect for sound_play()
-#define SOUND_COUNT 121
+#define SOUND_COUNT 122
 typedef struct {
     const uint8_t *sound; // Location of PCM data to playback
     const uint8_t *end; // Pointer to the end, to calculate length

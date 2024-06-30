@@ -190,7 +190,7 @@ land. Anything's possible.<NOD<ANP0311:0000:0002<END
 #0312
 <MSGOh, you again.<NOD<CLRSue was brought up top.<NOD
 They say it's her fault Toroko
-got captured.<NOD<ANP0311:0000:0002<END
+got captured.<NOD<ANP0311:0000:0002<FAC0030(I don't like this...)<NOD<END
 #0313
 <KEY<MSGIt sure sounds busy over at
 Arthur's house...<NOD<CLRAre they having a party or
@@ -272,12 +272,16 @@ and when none of the
 other Mimigas would have
 anything to do with me,<NOD
 she alone was friendly
-and kind.<NOD<CLR.....<NOD<CLRI know.<NOD<CLRWhy don't you go in
-my place?<NOD<CLRMy brother's in a
-location called
-Grasstown.<NOD
+and kind.<NOD<CLR<FAC0030She better be alright,<NOD
+or else this doctor guy
+is gonna get a face full
+of blaster.<NOD<CLR<FAC0001Hmm...<NODWhy don't you go in
+my place?<NOD<CLR<FAC0030Huh? Go where?<NOD<CLR<FAC0001My brother's in a
+place called Grasstown.<NOD
 Find him and bring him
-here.<NOD<END
+here.<NOD<CLR<FAC0030If it'll help you get out
+of this, then sure. I'm
+on my way.<NOD<END
 
 
 #0601
@@ -292,9 +296,12 @@ brother yet?<NOD<END
 
 #0610
 <FLJ0224:0611
-<KEY<MSG<FAC0007This is the fate of all
+<KEY<MSG<FAC0030You can't seriously leave
+her caged up like this.
+Come on.<NOD<CLR<FAC0007This is the fate of all
 who disturb the order of
-our village.<NOD<END
+our village.<NOD<CLR<FAC0030(Guess he's not gonna
+budge.)<NOD<END
 #0611
 <KEY<MSG<FAC0007Still waiting...<NOD<END
 

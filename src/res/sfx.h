@@ -85,5 +85,6 @@ extern const uint8_t SFX_75[], SFX_75_end[];
 extern const uint8_t SFX_76[], SFX_76_end[];
 extern const uint8_t SFX_77[], SFX_77_end[];
 extern const uint8_t SFX_78[], SFX_78_end[];
+extern const uint8_t SFX_79[], SFX_79_end[];
 
 #endif //RES_SFX_H

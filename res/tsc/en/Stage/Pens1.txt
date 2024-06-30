@@ -84,7 +84,8 @@ When the Doctor's flunkies
 come, we're going to try
 to get Toroko back.<NOD
 In exchange for Sue,
-you see.<NOD<CLRIt's not very nice, I know,
+you see.<NOD<CLR<FAC0030What? There has to be a
+better way.<NOD<CLR<FAC0009It's not very nice, I know,
 but Toroko is one of us.<NOD
 That's what you get when
 you act alone.<NOD<END

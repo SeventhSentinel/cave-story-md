@@ -22,43 +22,40 @@
 
 
 #0110
-<KEY<MSGYou feel a cold wind
-blowing in...<NOD<END
+<KEY<MSG<FAC0030(There's a cold breeze
+coming in through here.
+Brrr...)<NOD<END
 
 
 #0200
 <FLJ0120:0210
 <KEY
 <FL+0120<FL+0105<FL+0154<FL+0155<FL+0329<FL+0106
-<MSG...Ergh.<NOD<CLO
+<MSG<FAC0030There you are. Wake up!
+Are you okay?<NOD<CLR<FAC0000...Ergh.<NOD<CLO
 <MYB0002<WAI0050<MYD0002
 <MSGOwww...<NOD<ANP0200:0011:0002<CLR<FAC0003Woh-oh!
 Hey, I'm not dead yet!<NOD
 You're gonna eat it
-this time!!<NOD<FAC0000<CLO
-<WAI0050<ANP0200:0000:0002
-<MSG<FAC0001Huh?<WAI0050<NOD
+this time!!<NOD<FAC0000<CLR<FAC0030Yeesh, chill out...<NOD<ANP0200:0000:0002
+<FAC0001<CLRHuh?<WAI0050<NOD
 I got creamed by that
-monster...<ANP0200:0000:0000<NOD<CLR.....<NOD
-Did you save me?<YNJ0202<EVE0201
-#0201
-<FAC0003I don't need your help!!<NOD<CLRI could handle him
-by myself! Somehow!<NOD
-Grr...I hate this stinking
-island, and I hate every
-living thing on it!<NOD<FAC0000<CLO<EVE0203
-#0202
-<FAC0002Hmph...<NOD<CLRWell, whatever.<NOD<FAC0000<CLO<EVE0203
+monster...<ANP0200:0000:0000<NOD<CLR<FAC0003Some help you were!<NOD<CLR<FAC0030I was ready to give him
+what for, but that punch
+stunned me.<NODI...took care
+of him, though.<NOD<CLR<FAC0002Hmph...<NOD
+Well, whatever.<NOD<FAC0000<CLO<EVE0203
 #0203
 <WAI0050<MSG<ANP0200:0005:0002<FAC0001Oh!<NOD<MYD0003<CLRLook! It's...I think
 it's Number 00!<NOD<CLRThis egg could be our
-ticket off this island!<NOD<CLO<FAC0000<MYD0002
+ticket off this island!<NOD<CLR<FAC0030Oh?<MYD0002
 <ANP0200:0003:0002<WAI0030
 <ANP0200:0005:0002<WAI0050
 <MSG<FAC0001Egg condition: Normal!
 That's what I like to
-hear!<NOD<CLO<WAI0050<SOU0043<WAI0020<FAC0000
-<MSG<FAC0002Hm?<NOD A password?<NOD<FAC0000<CLO
+hear!<NOD<CLR<FAC0030(That thing doesn't look
+anywhere near normal.)<NOD<CLO<WAI0050<SOU0043<WAI0020<MSG<FAC0000
+CLR<FAC0002Hm?<NODA password?<NOD<FAC0000<CLO
 <WAI0050
 <ANP0200:0000:0000<WAI0050
 <MSG<FAC0001Looks like you need a
@@ -71,22 +68,17 @@ I'm done here for now.<NOD<CLO
 <ANP0200:0000:0002<WAI0020
 <MSGAre you<MYD0000 from around
 here?<NOD<CLRDoesn't look like it,
-does it.<NOD
-The words on your cap
-there...<NOD
-That's not a language
-they have on this
-island.<NOD<CLR
-...Did you get lost?<NOD<CLRThat's okay.<NOD
+does it.<NOD<CLR<FAC0030No. I have no idea what
+I'm doing here. Just woke up
+in some cave...<NOD<CLR<FAC0001That's okay.<NOD
 I'll let you come
 with me.<NOD
 We can get off this
 dump together.<NOD
 In return, you're
-gonna help me.<NOD<CLO
-<ANP0200:0005:0002<WAI0020
-<SOU0011<ANP0100:0000:0002<WAI0020
-<ANP0100:0000:0000<DNP0200<SOU0023<END
+gonna help me.<NOD<CLR<FAC0030Help you how?<ANP0200:0005:0002<WAI0020<SOU0011<ANP0100:0000:0002<WAI0020<ANP0100:0000:0000<DNP0200<SOU0023<WAI0050
+...Alright then. Keep
+your secrets.<NOD<CLO<END
 
 #0300
 <KEY<MSG<TURSky Dragon Egg No. 00

@@ -34,9 +34,9 @@ of course?<NOD<END
 <CNP0300:0000:0000
 <PRI<MSG<FAC0030("Here sleeps the noble
 Arthur, true hero to the
-Mimigas.")<NOD<CLR(Oh, what's this?)<NOD<FAC0000<FLJ0390:0000<CLR<MSG<FL+0390
-<CMU0010<GIT1001<IT+0001Found =Arthur's Key=!<WAI0160<NOD<CLR<FAC0030(True hero, huh...
+Mimigas.")<NOD<CLR(True hero, huh...<NOD
 Wonder what it would have
-been like to meet him.)<NOD<CLO
+been like to meet him.)<NOD<FLJ0390:0000<CLR<MSG(Oh, what's this?)<NOD<CLR<FAC0000<FL+0390
+<CMU0010<GIT1001<IT+0001Found =Arthur's Key=!<WAI0160<NOD<CLO
 <RMU<END
 

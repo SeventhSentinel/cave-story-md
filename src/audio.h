@@ -87,6 +87,7 @@
 #define SND_UHUH	118
 #define SND_WHATTHE	119
 #define SND_WHOA	120
+#define SND_OOF	121
 
 // IDs for the title screen songs
 #define SONG_TITLE 		0x18

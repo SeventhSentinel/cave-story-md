@@ -14,18 +14,18 @@
 <PRI<FAO0004<TRA0002:0094:0220:0007
 
 #0150
-<KEY<MSGRed petals are scattered about.<NOD<END
+<KEY<MSG<FAC0030(There's a whole mess of
+red petals here.)<NOD<END
 
 #0200
-<KEY<MSGYou find a note.<NOD<CLR<TURWith the shield up, I can't
-get to No. 00's room.<NOD<CLR<TURI think one of these terminals
-ought to be able to lower the
-shield...<NOD<END
+<KEY<MSG<FAC0030(There's a note here...)<NOD<CLR...<NOD<CLR(Something about lowering
+the shield to No. 00's
+room using a terminal.)<NOD<END
 
 #0300
 <PRI<FLJ0200:0001<FL+0200
 <SOU0022<CNP0300:0021:0000
-<MSGOpened the treasure chest.<NOD<CLR<EVE0030
+<MSG<FAC0030(Finders keepers, eh?)<NOD<CLR<FAC0000<EVE0030
 
 
 #0500
